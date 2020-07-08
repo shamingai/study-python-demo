@@ -1,6 +1,11 @@
-a=input()
-r = pow(eval(a), 0.5)
-print("{:+>30.3f}".format(r))
+
+s = eval(input("请输入数字："))
+r = "零一二三四五六七"
+print(r[s])
+
+# a=input()
+# r = pow(eval(a), 0.5)
+# print("{:+>30.3f}".format(r))
 
 # s = 'fkld'
 # # for i in s:
