@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*- 
 # @Time : 2020/7/8 11:47 PM 
 # @Author : zhaotong 
-# @File : 12.globle.py
+# @File : 12.Globle.py
 
 # 1、局部变量和全局变量是不同变量
 n,s = 10, 100
