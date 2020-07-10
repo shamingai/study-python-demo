@@ -6,6 +6,7 @@
 import turtle as t
 import time
 t.setup(800, 400, 10, 10)
+t.hideturtle()
 
 # point
 pointA = (0, 100)
@@ -115,8 +116,7 @@ def number(num):
 
 # print
 def printTime():
-    now = time.time()
-    strnow = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(now))
+    strnow = time.strftime('%Y-%m-%d %H:%M:%S', time.gmtime())
     print(strnow)
     for i in range(4):
         changeX(i)
@@ -124,10 +124,12 @@ def printTime():
             number(eval(strnow[-5]))
         elif i == 1:
             number(eval(strnow[-4]))
+            t.write('分', font=("Arial", 18, "normal"))
         elif i == 2:
             number(eval(strnow[-2]))
         else:
             number(eval(strnow[-1]))
+            t.write('秒', font=("Arial", 18, "normal"))
 
 if __name__ == '__main__':
     for i in range(1000):
