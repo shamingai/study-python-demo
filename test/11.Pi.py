@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*- 
 # @Time : 2020/7/8 9:54 PM 
 # @Author : zhaotong 
-# @File : 11.pi.py
+# @File : 11.Pi.py
 
 # 近似公式计算法
 k = 0

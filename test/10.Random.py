@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*- 
 # @Time : 2020/7/7 9:39 PM 
 # @Author : zhaotong 
-# @File : 10.random.py
+# @File : 10.Random.py
 # 梅森旋转算法的伪随机序列
 
 # 只要种子相同，产生的随机数关系，随机序列都是一样的
